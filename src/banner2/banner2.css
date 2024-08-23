@@ -1,0 +1,88 @@
+/* Banner2.css */
+.banner-container {
+    position: relative;
+    width: 100%;
+}
+
+.banner-container img {
+    width: 100%;
+    height: auto; /* Đảm bảo hình ảnh co giãn theo chiều cao */
+}
+
+.banner-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.banner-content h2 {
+    text-transform: uppercase;
+    color: #f96400;
+    font-size: 2.5rem; /* Kích thước chữ có thể thay đổi theo kích thước màn hình */
+}
+
+.banner-content p {
+    max-width: 90%; /* Giới hạn chiều rộng nội dung */
+    font-size: 1rem; /* Kích thước chữ có thể thay đổi theo kích thước màn hình */
+    color: #f96400;
+    text-align: center;
+    margin-top: -30px;
+}
+
+.product {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    margin: 10px; /* Thêm khoảng cách giữa các sản phẩm */
+}
+
+.product img {
+    width: 100%; /* Đảm bảo hình ảnh co giãn */
+    max-width: 450px; /* Giới hạn chiều rộng tối đa */
+    height: auto;
+}
+
+.label {
+    width: 15%; /* Chiều rộng tương đối cho label */
+    max-width: 70px; /* Chiều rộng tối đa cho label */
+    position: absolute;
+    left: 0;
+    top: -25px;
+}
+
+.product-info {
+    top: -30px;
+    position: relative;
+    background: white;
+    width: 80%; /* Chiều rộng tương đối cho thông tin sản phẩm */
+    max-width: 300px; /* Giới hạn chiều rộng tối đa */
+    height: 65px;
+    border-width: 3px;
+    border-color: #000;
+    border-style: groove;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.product-info p {
+    color: black;
+    font-weight: bold;
+    max-width: 150px;
+    text-align: left;
+    margin-left: 20px;
+}
+
+.go-icon {
+    width: 10%; /* Chiều rộng tương đối cho biểu tượng "go" */
+    max-width: 50px; /* Chiều rộng tối đa cho biểu tượng "go" */
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}

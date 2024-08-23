@@ -1,0 +1,17 @@
+.p-menuitem-link {
+    color: white; 
+    font-weight: 200;
+    font-size: 0.700rem; /* Reduced font size */
+    padding: 0.75rem 1.3rem; 
+    border-radius: 8px; 
+    text-transform: uppercase;
+}
+
+.p-menuitem-link:nth-child(4) {
+    margin: 0 10px; /* Add margin around the separator */
+    pointer-events: none; /* Prevent click events on separator */
+    color: white; /* Ensure the separator is visible */
+}
+
+
+
